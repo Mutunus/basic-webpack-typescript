@@ -1,0 +1,160 @@
+html {
+  cursor: default;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+body {
+    background-color: #151414;
+    font-family: 'Muli';
+    padding: 10px;
+}
+
+#wrapper {
+  display: flex;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 10vh;
+}
+
+nav {
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+#name {
+  display: flex;
+}
+
+section {
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h1, h2, h3, li, a {
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+p {
+    color: white;
+}
+
+/* li {
+    transition: color 0.3s ease;
+}
+
+li:hover {
+    color: red;
+} */
+
+#name  {
+    /* font-size: 1.5em;
+    display: flex; */
+}
+
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+.tracking-in-expand-fwd {
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
